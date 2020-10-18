@@ -17,7 +17,8 @@ attr_accessor :name, :age
   end
 
   def meals
-
+    binding.pry
+    self.meal.length
   end
 
 end #end of class Customer
