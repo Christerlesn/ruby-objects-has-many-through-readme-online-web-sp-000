@@ -24,7 +24,7 @@ attr_accessor :name, :age
 
   def waiters
     Meal.all.map do |waiter|
-      self.waiter == waiter
+      meal.waiter == self
     end
   end
 
