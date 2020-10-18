@@ -22,4 +22,10 @@ attr_accessor :name, :age
     end
   end
 
+  def waiters
+    Meal.all.select do |waiter|
+      meal.waiter == self
+    end
+  end
+
 end #end of class Customer
