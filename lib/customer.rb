@@ -16,4 +16,8 @@ attr_accessor :name, :age
     Meal.new(waiter, self, total, tip)
   end
 
+  def meals
+
+  end
+
 end #end of class Customer
