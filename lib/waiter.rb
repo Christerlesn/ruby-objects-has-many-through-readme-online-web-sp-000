@@ -21,4 +21,8 @@ attr_accessor :name, :years
     end
   end
 
+  def best_tipper
+
+  end
+
 end #end of class Waiter
